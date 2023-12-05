@@ -1,10 +1,12 @@
 import os
 import re
+from memory_profiler import profile
 
 with open(os.getcwd() + "/days/day2/input.txt", "r") as f:
     lines = [line.rstrip() for line in f]
 
 
+@profile
 def code(red, green, blue):
     total_ids = 0
     total_powers = 0
