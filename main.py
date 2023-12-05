@@ -1,3 +1,3 @@
-import days.day1.day1 as day
+import days.day2.day2 as day
 
 day.run()
